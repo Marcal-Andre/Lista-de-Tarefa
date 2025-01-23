@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eeeeeeee;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 90%;
+    border: 1px solid red;
+    margin: auto auto;
+}
+
+input{
+    height: 120px;
+    font-size: 2rem;
+    width: 80%;
+    padding-left: 10%;   
+}
+
+button.add{
+    width: 20%;
+    cursor: pointer;
+    background: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 120px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+    border: solid blue;
+    padding-top: 40px;
+}
+
+.item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 80px;
+    width: 110%;
+    box-shadow: 0 0 20px #ccc;
+
+}
+
+.item-icone{
+    flex:20px;
+    border: 1px solid orangered;
+}
+
+.item-nome{
+    flex:55px;
+    border: 1px solid deeppink;
+}
+
+.item-botao{
+    flex:25px;
+    border: 1px solid green;
+}
+
+
