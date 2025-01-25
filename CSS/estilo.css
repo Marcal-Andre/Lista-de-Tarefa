@@ -46,7 +46,7 @@ main{
     flex-flow: row wrap;
     width: 90%;
     margin: auto auto;
-    border: solid blue;
+    border: 1px solid blue;
     padding-top: 40px;
 }
 
@@ -59,22 +59,49 @@ main{
     height: 80px;
     width: 110%;
     box-shadow: 0 0 20px #ccc;
+    margin-bottom: 5%;
 
+}
+
+.item.clicado{
+    background: #7bef9c;
+}
+
+.item.clicado .item-nome{
+    
 }
 
 .item-icone{
     flex:20px;
-    border: 1px solid orangered;
+    /*border: 1px solid orangered;*/
+    text-align: center;
+    font-size: 2rem;
 }
 
 .item-nome{
     flex:55px;
-    border: 1px solid deeppink;
+    /*border: 1px solid deeppink;*/
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
 .item-botao{
     flex:25px;
     border: 1px solid green;
+}
+
+.delete{
+    background: #f10606;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+}
+
+.mdi-check-circle{
+    color: green;
 }
 
 
