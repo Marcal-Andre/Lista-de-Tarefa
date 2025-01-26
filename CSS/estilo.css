@@ -67,7 +67,7 @@ main{
     background: #7bef9c;
 }
 
-.item-clicado .item-nome{
+.item.clicado .item-nome{
     text-decoration: line-through;
     color: gray;
 }
