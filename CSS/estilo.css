@@ -26,7 +26,9 @@ input{
     height: 120px;
     font-size: 2rem;
     width: 80%;
-    padding-left: 10%;   
+    padding-left: 10%; 
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px
 }
 
 button.add{
@@ -60,6 +62,7 @@ main{
     width: 110%;
     box-shadow: 0 0 20px #ccc;
     margin-bottom: 5%;
+    
 
 }
 
