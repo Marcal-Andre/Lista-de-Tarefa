@@ -24,7 +24,9 @@ function addTarefa(){
                 <div class="item-botao">
                     <button class="delete"> <i class="mdi mdi-delete"></i>Deletar</button>
     
-                </div>`;
+                </div>
+                
+            </div>;
 
                 main.innerHTML += novoItem;
     }
