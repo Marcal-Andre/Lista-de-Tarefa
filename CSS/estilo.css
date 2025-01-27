@@ -46,7 +46,7 @@ button.add{
 main{
     display: flex;
     flex-flow: row wrap;
-    width: 90%;
+    width: 80%;
     margin: auto auto;
     /*border: 1px solid blue;*/
     padding-top: 40px;
@@ -59,7 +59,7 @@ main{
     align-items: center;
     background: white;
     height: 80px;
-    width: 110%;
+    width: 100%;
     box-shadow: 0 0 20px #ccc;
     margin-bottom: 5%;
     
@@ -67,7 +67,7 @@ main{
 }
 
 .item.clicado{
-    background: #7bef9c;
+    background: #9ceeb3;
 }
 
 .item.clicado .item-nome{
