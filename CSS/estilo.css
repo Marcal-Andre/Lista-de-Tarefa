@@ -62,7 +62,8 @@ main{
     width: 100%;
     box-shadow: 0 0 20px #ccc;
     margin-bottom: 2%;
-    margin-top: 2%;
+    margin-top: 1%;
+    
     
 
 }
@@ -81,6 +82,7 @@ main{
     /*border: 1px solid orangered;*/
     text-align: center;
     font-size: 2rem;
+    
 }
 
 .item-nome{
