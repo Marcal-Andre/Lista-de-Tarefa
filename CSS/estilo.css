@@ -61,13 +61,14 @@ main{
     height: 80px;
     width: 100%;
     box-shadow: 0 0 20px #ccc;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
     
 
 }
 
 .item.clicado{
-    background: #9ceeb3;
+    background: #a0efac;
 }
 
 .item.clicado .item-nome{

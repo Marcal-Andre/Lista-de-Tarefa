@@ -1,6 +1,6 @@
 let input = document.getElementById('inputTarefa');
 let btnAdd = document.getElementById('btn-add');
-let main = documentElementById('areaLista');
+let main = document.getElementById('areaLista');
 
 
 
@@ -10,7 +10,7 @@ function addTarefa() {
     let valorInput = input.value;
 
     //SE NÃO FOR VAZIO, NEM NULO, NEM INDEFINIDO
-    if ((valorInput !== "") && (valorInput !== null) && (valorInput !== undefined)) {
+    if((valorInput !== "") && (valorInput !== null) && (valorInput !== undefined)) {
 
         let novoItem = `<div class="item">
                 <div class="item-icone">
