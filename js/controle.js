@@ -12,7 +12,7 @@ function addTarefa(){
     //SE NÃO FOR VAZIO, NEM NULO, NEM INDEFINIDO
     if ((valorInput !=="") && (valorInput !== null) && (valorInput !== undefined)){
 
-        let novoItem =` <div class="item">
+        let novoItem = `<div class="item">
                 <div class="item-icone">
                     <i class="mdi mdi-circle-outline"></i>
     
@@ -26,7 +26,7 @@ function addTarefa(){
     
                 </div>
                 
-            </div>;`
+            </div>`;
 
                 main.innerHTML += novoItem;
     }
