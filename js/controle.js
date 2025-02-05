@@ -18,8 +18,7 @@ function addTarefa() {
     
                 </div>
                 <div class="item-nome">
-                    Teste de Tarefa
-    
+                     ${valorInput}    
                 </div>
                 <div class="item-botao">
                     <button class="delete"> <i class="mdi mdi-delete"></i>Deletar</button>
@@ -28,8 +27,18 @@ function addTarefa() {
                 
             </div>`;
 
+            //Adicionar um novo item no main
+
         main.innerHTML += novoItem;
+
+            //zerar os campinhos
+
+            input.value = "";
+            input.focus();
+
     }
 
-
 }
+input.addEventListener("keyup", function(event){
+    if(event.keycode)
+})
